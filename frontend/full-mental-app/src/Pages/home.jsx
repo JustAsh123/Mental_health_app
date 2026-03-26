@@ -11,7 +11,8 @@ import {
   Leaf,
   Brain,
   MessageCircle,
-  Zap
+  Zap,
+  Gamepad
 } from "lucide-react";
 import AnimatedNavbar from "../components/AnimatedNavbar";
 
@@ -110,13 +111,12 @@ const Home = () => {
     },
     {
       id: 4,
-      title: "The Rest Initiative",
-      description:
-        "Connect with others and share experiences in a safe environment",
-      icon: Heart,
-      color: "from-gray-400 to-gray-500",
+      title: "Play Arena",
+      description: "Dive into mini-games and fun activities to unwind and recharge",
+      icon: Gamepad,
+      color: "from-blue-400 to-purple-500",
       status: "coming-soon"
-    }
+   }
   ];
 
   return (
